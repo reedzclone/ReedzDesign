@@ -387,11 +387,52 @@ hr {
 }
 
 @media screen and (max-width: 480px){
+    
     .left-heading-title {
         width: 100%;
         text-align: center;
-        font-size: 50px;
+        font-size: 30px;
     }
+
+    .second-section {
+    
+    }
+    .left-second-section-title {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 9px;
+    }
+
+
+
+    .second-section {
+    }
+
+    .img {
+        width: 60spx;
+    }
+
+
+    .choose-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    .choose-title {
+        font-size: 25px;
+    }
+
+
+
+    th {
+        padding-right: 10px;
+    }
+
+    td {
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+
 }
 
 
