@@ -387,7 +387,8 @@ hr {
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px) and (min-width: 200px){
+
     
     .left-heading-title {
         width: 100%;
@@ -398,7 +399,7 @@ hr {
     .left-second-section-title {
         text-align: center;
         margin-top: 20px;
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .left-second-section-desc, .left-third-section-desc{
@@ -429,13 +430,31 @@ hr {
 
 
     .choose-section {
-        width: 100%;
-        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .choose-title {
-        font-size: 25px;
+        text-align: center;
+        font-size: 18px;
     }
+
+    .choose-desc{
+        text-align: center;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+
+    .footer-title {
+        font-size: 12px;
+    }
+
+    .footer-desc {
+        display: none;
+    }
+
 
     table {
         margin: 0 10px;
