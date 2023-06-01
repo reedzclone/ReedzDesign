@@ -436,7 +436,7 @@ hr {
 @media screen and (max-width: 480px) and (min-width: 200px){
 
     body {
-        width: 100%;
+        margin: 60px;
     }
     .nav-container {
         margin-top: 0px;
@@ -452,7 +452,7 @@ hr {
     .left-second-section-title {
         text-align: center;
         margin-top: 20px;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .left-second-section-desc, .left-third-section-desc{
@@ -472,6 +472,10 @@ hr {
 
     .third-section {
         margin-left: 0;
+    }
+
+    .right-third-section {
+        align-items: center;
     }
 
     
