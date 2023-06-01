@@ -25,13 +25,26 @@
       <div class="nav-container">
         <h3 class="title">ReedzDesign</h3>
         <ul>
-          <a href="#"><li>Home</li></a>
-          <a href="#"><li>Our Work</li></a>
-          <a href="#"><li>Blog</li></a>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Work</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
         </ul>
-        <button class="nav-btn">Get Started</button>
+        <button class="nav-btn btns">Get Started</button>
+        <div onclick="toggle()" class="toggle-btn">
+          <i class="fa-solid fa-bars toggle-btn"></i>
+        </div>
       </div>
     </nav>
+    <div class="dropdown-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Work</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><button class="nav-btn">Get Started</button></li>
+      </ul>
+    </div>
 
     <head>
       <div class="container">
@@ -140,5 +153,7 @@
     </footer>
     <hr />
     <address>Made by ReedzClone</address>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
