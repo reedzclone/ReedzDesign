@@ -89,7 +89,7 @@ a:hover {
     position: absolute;
     height: 0;
     right: 2rem;
-    top: 90px;
+    top: 95px;
     width: 400px;
     background-color: #fff;
     overflow: hidden;
@@ -313,6 +313,10 @@ hr {
 
 @media screen and (max-width: 1024px) {
 
+    /* body {
+        width: 500px;
+    } */
+
     .container {
         flex-direction: column;
     }
@@ -385,7 +389,7 @@ hr {
 
     .left-second-section-desc {
         text-align: center;
-        margin-left: 50px;
+        margin-left: 17px;
     }
 
     .third-section {
@@ -397,7 +401,7 @@ hr {
 
     .left-third-section-desc {
         text-align: center;
-        margin-left: 40px;
+        margin-left: 23px;
     }
 
     .footer-title {
@@ -436,13 +440,35 @@ hr {
 @media screen and (max-width: 480px) and (min-width: 200px){
 
     body {
+        width: 800px;
+    }
+
+    body {
         margin: 60px;
+    }
+
+    nav {
+        padding: 0;
     }
     .nav-container {
         margin-top: 0px;
+        padding: 0;
+        gap: 100px;
     }
 
-    
+    .toggle-btn {
+        margin-left: 40px;
+    }
+
+
+    .left-second-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
     .left-heading-title {
         width: 100%;
         text-align: center;
@@ -457,10 +483,14 @@ hr {
 
     .left-second-section-desc, .left-third-section-desc{
         text-align: center;
-        width: 80%;
-        font-size: 10px;
+        font-size: 12px;
         margin-bottom: 20px;
         margin-top: 10px;
+        width: 280px;
+    }
+
+    .left-third-section-desc {
+
     }
 
     
@@ -495,6 +525,7 @@ hr {
     .choose-title {
         text-align: center;
         font-size: 16px;
+        left: 0;
     }
 
     .choose-desc{
@@ -502,9 +533,11 @@ hr {
         font-size: 10px;
         margin-top: 5px;
         margin-bottom: 8px;
+        left: 0;
     }
 
     .footer-title {
+        display: none;
         font-size: 10px;
     }
 
